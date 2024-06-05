@@ -373,7 +373,7 @@ export default function Home() {
 
 						<div className="flex my-40">
 							<div className="box opacity-0 w-4/6 ">
-								<Link target="_blank" href="https://shop.mahdisportfolio.ir/">
+								<Link target="_blank" href="http://e-commerce-mqdad.vercel.app/">
 									<Image
 										loading="lazy"
 										width={600}
