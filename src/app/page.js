@@ -10,7 +10,7 @@ import reduxLogo from "../assets/logos/redux.svg";
 import tailwindcssLogo from "../assets/logos/tailwindcss.svg";
 
 import project1 from "../assets/projects/project1.jpg";
-import billManager from "../assets/projects/billManager.png";
+import billManager from "../assets/projects/weatherapp.png";
 
 import brain from "../assets/soft/brain.svg";
 import bulb from "../assets/soft/bulb.svg";
@@ -52,7 +52,7 @@ export default function Home() {
 				},
 				opacity: +1,
 				duration: 1,
-				x: 200,
+				x: 150,
 			}),
 				gsap.to(".text", {
 					scrollTrigger: {
@@ -61,7 +61,7 @@ export default function Home() {
 					},
 					opacity: +1,
 					duration: 2,
-					x: -310,
+					x: -270,
 				});
 		},
 		{ scope: container }
@@ -350,16 +350,16 @@ export default function Home() {
 						<div className="flex mt-40">
 							<div className="w-full flex justify-start text-end items-center">
 								<div className="box w-2/5 opacity-0  ">
-									<h1 className="text-6xl text-gray-200">Bill-manager</h1>
+									<h1 className="text-6xl text-gray-200">Weather-app</h1>
 									<h1 className="text-4xl text-gray-200 mt-1">
-										You can use this website to manage all your bills
+										Search and get current weather status of your location
 									</h1>
 								</div>
 							</div>
 							<div className="text opacity-0 w-4/6 ">
 								<Link
 									target="_blank"
-									href="https://billmanager.mahdisportfolio.ir/">
+									href="https://mahdi-dmr1.github.io/weathereact/">
 									<Image
 										loading="lazy"
 										width={600}
