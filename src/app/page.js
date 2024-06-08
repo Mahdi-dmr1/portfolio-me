@@ -374,9 +374,7 @@ export default function Home() {
 
 						<div className="flex my-40">
 							<div className="box opacity-0 w-4/6 ">
-								<Link
-									target="_blank"
-									href="https://quiz-six-mu-51.vercel.app/quiz">
+								<Link target="_blank" href="https://shop.mahdisportfolio.ir/">
 									<Image
 										loading="lazy"
 										width={600}
