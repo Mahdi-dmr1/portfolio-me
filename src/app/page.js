@@ -10,7 +10,8 @@ import reduxLogo from "../assets/logos/redux.svg";
 import tailwindcssLogo from "../assets/logos/tailwindcss.svg";
 
 import project1 from "../assets/projects/project1.jpg";
-import billManager from "../assets/projects/weatherapp.png";
+import weatherapp from "../assets/projects/weatherapp.png";
+import quiz from "../assets/projects/quiz.png";
 
 import brain from "../assets/soft/brain.svg";
 import bulb from "../assets/soft/bulb.svg";
@@ -152,7 +153,7 @@ export default function Home() {
 							width={800}
 							height={800}
 							src={myPhoto}
-							className="shadow-2xl mt-10"
+							className="shadow-2xl mt-10 animate-pulse"
 						/>
 					</div>
 				</div>
@@ -364,7 +365,7 @@ export default function Home() {
 										loading="lazy"
 										width={600}
 										height={400}
-										src={billManager}
+										src={weatherapp}
 										className="rounded-lg shadow-lg hover:scale-105 duration-500"
 									/>
 								</Link>
@@ -373,7 +374,43 @@ export default function Home() {
 
 						<div className="flex my-40">
 							<div className="box opacity-0 w-4/6 ">
-								<Link target="_blank" href="https://shop.mahdisportfolio.ir/">
+								<Link
+									target="_blank"
+									href="https://quiz-six-mu-51.vercel.app/quiz">
+									<Image
+										loading="lazy"
+										width={600}
+										height={400}
+										src={quiz}
+										className="rounded-lg shadow-lg hover:scale-105 duration-500"
+									/>
+								</Link>
+							</div>
+							<div className="w-full flex justify-end items-center">
+								<div className="text w-2/5 opacity-0  ">
+									<h1 className="text-6xl text-gray-200">Quiz-app</h1>
+									<h1 className="text-4xl text-gray-200 mt-1">
+										Test your general knowledge with this amazing and fun
+										quiz-app
+									</h1>
+								</div>
+							</div>
+						</div>
+
+						<div className="flex my-40">
+							<div className="w-full flex justify-start text-end items-center">
+								<div className="box w-2/5 opacity-0  ">
+									<h1 className="text-6xl text-gray-200">E-commerce</h1>
+									<h1 className="text-4xl text-gray-200 mt-1">
+										This project is a replica of the popular computer hardware
+										store called meghdadIT
+									</h1>
+								</div>
+							</div>
+							<div className="text opacity-0 w-4/6 ">
+								<Link
+									target="_blank"
+									href="http://e-commerce-mqdad.vercel.app/">
 									<Image
 										loading="lazy"
 										width={600}
@@ -382,15 +419,6 @@ export default function Home() {
 										className="rounded-lg shadow-lg hover:scale-105 duration-500"
 									/>
 								</Link>
-							</div>
-							<div className="w-full flex justify-end items-center">
-								<div className="text w-2/5 opacity-0  ">
-									<h1 className="text-6xl text-gray-200">E-commerce</h1>
-									<h1 className="text-4xl text-gray-200 mt-1">
-										This project is a replica of the popular computer hardware
-										store called meghdadIT
-									</h1>
-								</div>
 							</div>
 						</div>
 					</div>
