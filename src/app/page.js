@@ -22,7 +22,7 @@ import { FaGithub } from "react-icons/fa";
 import { FaTelegramPlane } from "react-icons/fa";
 import { IoLogoWhatsapp } from "react-icons/io";
 
-import myPhoto from "../assets/myPhoto.jpg";
+import myPhoto from "../assets/myphoto.jpg";
 import Dual_blob from "../assets/Regular_blob.svg";
 import { ReactTyped } from "react-typed";
 import gsap from "gsap";
